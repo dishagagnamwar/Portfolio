@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disha Gagnamwar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">DISHA GAGNAMWAR</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-image">
+            <!-- Ensure you save your photo as profile.jpg in the portfolio folder -->
+            <img src="profile.jpg" alt="Disha Gagnamwar" class="profile-pic">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I'm <span class="name">DISHA GAGNAMWAR</span></h1>
+            <h2>A Data Analyst</h2>
+            <p>I enjoy digging into messy datasets, uncovering patterns, and turning numbers into clear, meaningful stories. I’m passionate about understanding what the data is really saying and finding insights that can make a difference.</p>
+            <div class="home-buttons">
+                <a href="https://github.com/dishagagnamwar/Resume" target="_blank" class="btn btn-primary">My Resume</a>
+                <a href="https://www.linkedin.com/in/disha-gagnamwar-39b9762a1" target="_blank" class="btn btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>I work with Python, SQL, Excel, Power BI, and data visualization to analyze data, build interactive dashboards, and solve real-world problems. I’m particularly interested in understanding the “why” behind the numbers — going beyond what happened to discover the trends, relationships, and insights that actually matter.</p>
+            <p>I believe great analysis is not just about presenting numbers, but about turning raw data into actionable insights and better decisions. I’m continuously learning, experimenting with new datasets, and building projects that strengthen my analytical thinking.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>5+</h3>
+                    <p>Projects completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding bg-light">
+        <h2 class="section-title">My Skills</h2>
+        <p class="section-subtitle">A showcase of my technical abilities and the tools I use to turn data into insights.</p>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-python"></i> <span>Python</span></div>
+            <div class="skill-card"><i class="fas fa-database"></i> <span>SQL</span></div>
+            <div class="skill-card"><i class="fas fa-chart-bar"></i> <span>Power BI</span></div>
+            <div class="skill-card"><i class="fas fa-file-excel"></i> <span>Excel</span></div>
+            <div class="skill-card"><span>Pandas</span></div>
+            <div class="skill-card"><span>NumPy</span></div>
+            <div class="skill-card"><span>Matplotlib</span></div>
+            <div class="skill-card"><span>Seaborn</span></div>
+            <div class="skill-card"><span>Snowflake</span></div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i> <span>Git & GitHub</span></div>
+            <div class="skill-card"><span>Jupyter</span></div>
+            <div class="skill-card"><span>VS Code</span></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">A selection of data analytics projects built using Python, SQL, Power BI, and data visualization.</p>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Crypto currency dashboard</h3>
+                <p>An interactive Power BI dashboard that visualizes cryptocurrency market data, including live price movements, market capitalization, 24h trading volume, and percentage change across major coins (BTC, ETH, etc.). The dashboard enables users to compare asset performance and spot volatility patterns.</p>
+                <a href="https://github.com/dishagagnamwar/CRYPTO-CURRENCY-DASHBOARD" class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>San Francisco airport airlines analysis dashboard</h3>
+                <p>This Tableau workbook (AIRPORT_ANALYSIS.twb, built on Tableau 2026.2) analyzes flight route and traffic data for San Francisco International Airport (SFO). It combines tabular flight-log data with spatial geometry (route coordinates) to visualize route volume, traffic trends over time, gate/airline activity, and top-ranked routes.</p>
+                <a href="https://github.com/dishagagnamwar/San-Francisco-Airport-Airlines-Analysis" class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Sample super store Dashboard</h3>
+                <p>This project is an interactive Tableau dashboard created using the Sample Store US dataset. The purpose of this project is to analyze sales performance, profitability, customers, products, categories, and regional trends across the United States.
+
+The dashboard transforms raw sales data into meaningful visual insights that can help understand business performance and support data-driven decision-making.</p>
+                <a href="https://github.com/dishagagnamwar/Sample-store-sales-dashboard" class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <h3>Pandemic impact analysis</h3>
+                <p>An interactive Tableau dashboard analyzing the COVID-19 pandemic across Indian states and union territories, covering confirmed cases, deaths, and recoveries with map-based and bar chart visualizations.
+This dashboard provides a state-wise breakdown of the COVID-19 pandemic in India. It combines geographic maps and comparative bar charts to highlight which states were most affected in terms of confirmed cases, deaths, and recoveries.</p>
+                <a href="https://github.com/dishagagnamwar/pandemic_analysis_report" class="project-link" target="_blank">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section-padding bg-light">
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">My professional certifications and achievements.</p>
+        <div class="certifications-grid projects-grid">
+            <!-- Certificate 1 -->
+            <div class="project-card">
+                <object data="cert1.pdf" type="application/pdf" class="cert-image" style="height: 250px; overflow: hidden; border: none; border-radius: 10px; margin-bottom: 20px;"></object>
+                <h3>Introduction to JIRA</h3>
+                <p>Completed an online course by Simplilearn on JIRA, demonstrating initiative and a commitment to deepening skills in Agile project management and issue tracking.</p>
+                <a href="cert1.pdf" class="project-link" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <!-- Certificate 2 -->
+            <div class="project-card">
+                <object data="cert2.pdf" type="application/pdf" class="cert-image" style="height: 250px; overflow: hidden; border: none; border-radius: 10px; margin-bottom: 20px;"></object>
+                <h3>Trello for Beginners</h3>
+                <p>Completed a Coursera Project Network course covering the fundamentals of using Trello for task organization, collaboration, and project management.</p>
+                <a href="cert2.pdf" class="project-link" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <!-- Certificate 3 -->
+            <div class="project-card">
+                <img src="cert3.png" alt="Introduction to Project Management with ClickUp" class="cert-image">
+                <h3>Project Management with ClickUp</h3>
+                <p>Successfully completed the Coursera project "Introduction to Project Management with ClickUp", mastering the basics of organizing, delegating, and tracking projects.</p>
+                <a href="cert3.png" class="project-link" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">I love to solve business problems & uncover hidden data stories.</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Bhopal, India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Contact Number</h3>
+                        <p><a href="tel:+917489169573">+91 7489169573</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email Address</h3>
+                        <p><a href="mailto:dishagagnamwar2711@gmail.com">dishagagnamwar2711@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-file-download"></i>
+                    <div>
+                        <h3>Download Resume</h3>
+                        <p><a href="https://github.com/dishagagnamwar/Resume" target="_blank">Resume Link</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <h3>Find me on</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/disha-gagnamwar-39b9762a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/dishagagnamwar" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/disha8017_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/dishagagnamwar" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; <span id="year"></span> All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
